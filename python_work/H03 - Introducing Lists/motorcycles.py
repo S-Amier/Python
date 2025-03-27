@@ -18,8 +18,15 @@ motorcycles.append('yamaha')
 motorcycles.append('suzuki')
 print(motorcycles)
 
-# Assigning (inserting) item to spot inside list
+# Assigning (insert) item to spot inside list
 motorcycles = ['honda', 'yamaha', 'suzuki']
 
 motorcycles.insert(0, 'ducati')
 print (motorcycles)
+
+# Removing (del) item from list
+motorcycles = ['honda', 'yamaha', 'suzuki']
+print(motorcycles)
+
+del motorcycles [0]
+print(motorcycles)
